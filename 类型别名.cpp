@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-typedef int word;//通用格式，举例说明typedef的用法，typedef typename aliasName;
-typedef char* pointer;//举例说明将指向char的指针，别名定义为pointer 
+typedef int word;//閫氱敤鏍煎紡锛屼妇渚嬭鏄巘ypedef鐨勭敤娉曪紝typedef typename aliasName;
+typedef char* pointer;//涓句緥璇存槑灏嗘寚鍚慶har鐨勬寚閽堬紝鍒悕瀹氫箟涓簆ointer 
 int main(void)
 {
-	word a=3;//word等效于int 
+	word a=3;//word绛夋晥浜巌nt 
 	cout<<a<<endl;
-	pointer p1;//用pointer声明一个变量，pointer在此处等效于char * 
+	pointer p1;//鐢╬ointer澹版槑涓�涓彉閲忥紝pointer鍦ㄦ澶勭瓑鏁堜簬char * 
 	p1=new(char);
 	*p1='k';
 	cout<<*p1<<endl;
