@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include<fstream>
-//简单的读写文件程序 
+//绠�鍗曠殑璇诲啓鏂囦欢绋嬪簭 
 int main(void)
 {
 	ifstream infile;
@@ -18,7 +18,7 @@ int main(void)
 	infile.close();
 	cout<<c;
 	ofstream outfile;
-	outfile.open("D:\\shit.txt");//C盘写不进去，我也不知道为啥！-_- ...... 
+	outfile.open("D:\\shit.txt");//C鐩樺啓涓嶈繘鍘伙紝鎴戜篃涓嶇煡閬撲负鍟ワ紒-_- ...... 
 	if(!outfile.is_open())
 	{
 		cout<<"failure"<<endl;
