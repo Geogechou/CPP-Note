@@ -1,4 +1,4 @@
-//Ä¬ÈÏ¹¹Ôìº¯ÊýºÍÒýÓÃµÄÓÃ·¨ £¬ÒýÓÃ×÷Îªº¯Êý·µ»ØÖµ 
+//é»˜è®¤æž„é€ å‡½æ•°å’Œå¼•ç”¨çš„ç”¨æ³• ï¼Œå¼•ç”¨ä½œä¸ºå‡½æ•°è¿”å›žå€¼ 
 #include <iostream>
 #include<cstring>
 using namespace std;
