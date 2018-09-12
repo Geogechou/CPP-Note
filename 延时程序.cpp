@@ -1,8 +1,8 @@
 #include <iostream>
 #include <ctime>
-/*¼ÆÊ±µÄ¿âº¯Êı£¬clock_tÊÇÒ»¸ö³¤ÕûĞÍ£¬clock()·µ»Øms*/
+/*è®¡æ—¶çš„åº“å‡½æ•°ï¼Œclock_tæ˜¯ä¸€ä¸ªé•¿æ•´å‹ï¼Œclock()è¿”å›ms*/
 using namespace std;
-//Ò»¸öÑÓÊ±3sµÄĞ¡³ÌĞò 
+//ä¸€ä¸ªå»¶æ—¶3sçš„å°ç¨‹åº 
 int main(void)
 {
 	cout<<"enter time:";
