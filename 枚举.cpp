@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 enum{red,orange,yellow,green,blue,violet,indigo};
-//枚举的应用，red=0，orange=1，yellow=2..... 
+//鏋氫妇鐨勫簲鐢紝red=0锛宱range=1锛寉ellow=2..... 
 int main(void)
 {
 	int code;
