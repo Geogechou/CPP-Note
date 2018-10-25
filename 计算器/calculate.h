@@ -22,20 +22,33 @@ public:
 			return;
 		}
 		else {
+			
+			//cout << "push " << it << endl;
 			array[top++] = it;
 		}
 	}
 	E pop() {
 		if (top == 0)
 			return NULL;
-		else
+		else {
+			/*int num = top;
+			cout << "pop" << array[--num] << endl;*/
+		
 			return array[--top];
+
+		}
 	}
 	E topElem() {
 		if (top == 0)
 			return NULL;
 		else
 			return array[top - 1];
+	}
+	bool isEmpty() {
+		if (top == 0)
+			return true;
+		else
+			return false;
 	}
 };
 class calculate {
@@ -103,12 +116,15 @@ bool calculate::cal(char op, double x, double y, double&r) {
 }
 template<class E>
 bool calculate::get_two_operands(Lstack<E>& opnd, double&x, double&y) {
-	y = opnd.pop();
-	x = opnd.pop();
-	if (x && y)
-		return true;
-	else
+	/*每次取数时确定是否堆栈为空*/
+	if (opnd.isEmpty())
 		return false;
+	y = opnd.pop();
+	if (opnd.isEmpty())
+		return false;
+	x = opnd.pop();
+	return true;
+	
 }
 int calculate::isp(char ch) {
 	switch (ch) {
